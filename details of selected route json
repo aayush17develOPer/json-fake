@@ -1,0 +1,113 @@
+[
+  {
+    "id": 1,
+    "name": "R1",
+    "vehicle": {
+      "id": 11,
+      "name": "VEHICLE_1",
+      "driver": {
+        "id": 12,
+        "name": "DRIVER_1"
+      },
+      "type": {
+        "id": 123,
+        "name": "TRUCK"
+      }
+    },
+    "version": "5.1",
+    "routing_ref_id": 123,
+    "dispatch_date": "2025-06-26",
+    "route_summary": {
+      "planned_distance": 2345,
+      "planned_time": 12345,
+      "idle_time": 12345,
+      "transaction_time": 12345,
+      "travel_time": 12345,
+      "order_count": 123,
+      "vehicle_utilization": {
+        "weight": {
+          "actual": 64.43,
+          "available": 100
+        },
+        "volume": {
+          "actual": 83.23,
+          "available": 120
+        }
+      }
+    }
+  },
+  {
+    "id": 2,
+    "name": "R2",
+    "vehicle": {
+      "id": 21,
+      "name": "VEHICLE_2",
+      "driver": {
+        "id": 22,
+        "name": "DRIVER_2"
+      },
+      "type": {
+        "id": 124,
+        "name": "VAN"
+      }
+    },
+    "version": "5.2",
+    "routing_ref_id": 456,
+    "dispatch_date": "2025-06-27",
+    "route_summary": {
+      "planned_distance": 1980,
+      "planned_time": 11200,
+      "idle_time": 10500,
+      "transaction_time": 11000,
+      "travel_time": 10800,
+      "order_count": 98,
+      "vehicle_utilization": {
+        "weight": {
+          "actual": 72.5,
+          "available": 90
+        },
+        "volume": {
+          "actual": 76.0,
+          "available": 100
+        }
+      }
+    }
+  },
+  {
+    "id": 3,
+    "name": "R3",
+    "vehicle": {
+      "id": 31,
+      "name": "VEHICLE_3",
+      "driver": {
+        "id": 32,
+        "name": "DRIVER_3"
+      },
+      "type": {
+        "id": 125,
+        "name": "MINI TRUCK"
+      }
+    },
+    "version": "5.3",
+    "routing_ref_id": 789,
+    "dispatch_date": "2025-06-28",
+    "route_summary": {
+      "planned_distance": 1450,
+      "planned_time": 9800,
+      "idle_time": 9500,
+      "transaction_time": 9600,
+      "travel_time": 9400,
+      "order_count": 75,
+      "vehicle_utilization": {
+        "weight": {
+          "actual": 58.9,
+          "available": 85
+        },
+        "volume": {
+          "actual": 67.4,
+          "available": 95
+        }
+      }
+    }
+  }
+]
